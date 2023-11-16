@@ -1,0 +1,11 @@
+@import './reset.css';
+@import './css/menu.css';
+@import './css/style.css';
+
+#app {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-weight: normal;
+  font-family: 'Noto Sans TC';
+  font-size: 18px;
+}

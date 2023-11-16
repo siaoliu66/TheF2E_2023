@@ -1,0 +1,92 @@
+.container {
+  margin-top: 80px;
+}
+.container .banner {
+  background: linear-gradient(180deg, #E1E0D4 0%, #FCFCFC 100%);
+  position: relative;
+}
+.container .banner .bgcenter {
+  display: block;
+  margin: 0 auto;
+  position: sticky;
+  z-index: 1;
+}
+.container .banner .text-left img {
+  position: absolute;
+}
+.container .banner .text-left img:nth-child(1) {
+  top: 80px;
+  left: 380px;
+}
+.container .banner .text-left img:nth-child(2) {
+  top: 265px;
+  left: 280px;
+}
+.container .banner .text-right {
+  position: absolute;
+  top: 350px;
+  right: 0;
+  margin-right: 90px;
+}
+.container .banner .poicey_box {
+  display: flex;
+  width: 300px;
+  border-radius: 10px;
+  background: #fff;
+  position: absolute;
+  top: 125px;
+  right: 430px;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+  z-index: 1;
+}
+.container .banner .poicey_box::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 60px;
+  top: 100px;
+  border: 1px solid;
+  border-width: 0px 60px 30px 1px;
+  border-color: transparent transparent #ffffff transparent;
+  transform: rotate(120deg);
+}
+.container .banner .poicey_box p {
+  align-self: center;
+}
+.container .banner .poicey_box .arrowed {
+  width: 58px;
+  height: 58px;
+  background: #DAB071;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+.container .banner .poicey_box .arrow-5 {
+  /* more triangle */
+  display: block;
+  height: 0px;
+  width: 0px;
+  border: 6px solid;
+  border-color: #fff #fff transparent transparent;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.container .banner .poicey_box .arrow-5:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: block;
+  height: 5px;
+  width: 10px;
+  background-color: #fff;
+  transform: rotate(-45deg) translate(2px, 1px);
+}/*# sourceMappingURL=style.css.map */
