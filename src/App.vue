@@ -24,9 +24,9 @@ import footermenu from './components/footer.vue'
     </div>
     <div class="candidate" id="candidate"></div>
     <div class="news" id="news"></div>
-    <div class="Policy" id="Policy"></div>
-    <div class="Donate" id="Donate"></div>
-    <div class="Sevices" id="Sevices"></div>
+    <div class="policy" id="Policy"></div>
+    <div class="donate" id="Donate"></div>
+    <div class="sevices" id="Sevices"></div>
   </div>
   <footermenu />
 </template>
